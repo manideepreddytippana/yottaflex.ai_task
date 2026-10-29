@@ -1,9 +1,0 @@
-creative_id,name,format,version,active_from,active_to,metadata_json
-CRE-000001,Enterprise Cloud Suite Banner,BANNER,v1.0,2026-01-01T00:00:00+00:00,,"{""asset_type"": ""banner"", ""tag"": ""core_2026""}"
-CRE-000002,ROI Calculator Interactive,LANDING_PAGE,v2.1,2026-01-01T00:00:00+00:00,,"{""asset_type"": ""landing_page"", ""tag"": ""core_2026""}"
-CRE-000003,Customer Case Study Video,VIDEO,v1.2,2026-01-01T00:00:00+00:00,,"{""asset_type"": ""video"", ""tag"": ""core_2026""}"
-CRE-000004,Search Headline - Best Enterprise Tool,TEXT,v3.0,2026-01-01T00:00:00+00:00,,"{""asset_type"": ""text"", ""tag"": ""core_2026""}"
-CRE-000005,Quarterly Product Demo Webinar,LANDING_PAGE,v1.0,2026-01-01T00:00:00+00:00,,"{""asset_type"": ""landing_page"", ""tag"": ""core_2026""}"
-CRE-000006,Whitepaper Download Promo,BANNER,v2.0,2026-01-01T00:00:00+00:00,,"{""asset_type"": ""banner"", ""tag"": ""core_2026""}"
-CRE-000007,Product Launch Video Clip,VIDEO,v1.0,2026-01-01T00:00:00+00:00,,"{""asset_type"": ""video"", ""tag"": ""core_2026""}"
-CRE-000008,Industry Benchmark Report Ad,TEXT,v1.5,2026-01-01T00:00:00+00:00,,"{""asset_type"": ""text"", ""tag"": ""core_2026""}"
