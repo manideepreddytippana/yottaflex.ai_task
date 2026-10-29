@@ -1,0 +1,6 @@
+ground_truth_id,entity_type,entity_id,issue_type,expected_detection,expected_decision,severity,rule_id,notes
+GT-000001,order,ORD-2026-003426,DUPLICATE_REVENUE,True,COUNT_ONCE_FLAG_DUPLICATE,CRITICAL,RULE-DUP-REV-01,Duplicate order record sharing economic_transaction_key TXN-2026-000001 with ORD-2026-000001
+GT-000002,touchpoint,TOUCH-CON-023232-000002,POST_CONVERSION_TOUCH,True,EXCLUDE_FROM_ATTRIBUTION,MEDIUM,RULE-TEMP-TOUCH-01,Touchpoint occurred after conversion order ORD-2026-000020
+GT-000003,cost_record,COST-2026-005005,CURRENCY_MISMATCH,True,BLOCK_ROI_FLAG_UNRESOLVED_FX,HIGH,RULE-FX-RATE-01,Cost record in EUR without valid exchange rate to reporting currency
+GT-000004,campaign,CMP-2026-000500,MISSING_CAMPAIGN_COST,True,MARK_INCOMPLETE_COST_ROI_UNAVAILABLE,HIGH,RULE-COST-COV-01,Active campaign CMP-2026-000500 has zero recorded costs
+GT-000005,web_session,SES-2026-077262,UNSUPPORTED_IDENTITY_LINK,True,QUARANTINE_IDENTITY_LINK,MEDIUM,RULE-ID-EVID-01,Anonymous web session linked to contact without verified identity evidence

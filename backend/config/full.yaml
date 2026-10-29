@@ -1,0 +1,21 @@
+# Full Scale Configuration for Marketing Attribution System
+seed: 20261022
+dataset_scale: full
+reporting_currency: INR
+
+counts:
+  campaigns: 500
+  contacts: 50000
+  touchpoints: 200000
+  opportunities: 10000
+
+conversion_window_days: 180
+anomaly_injection_enabled: true
+
+anomaly_rates:
+  duplicate_revenue: 0.002
+  post_conversion_touch: 0.002
+  currency_mismatch: 0.002
+  missing_campaign_cost: 0.002
+  unsupported_identity_link: 0.002
+

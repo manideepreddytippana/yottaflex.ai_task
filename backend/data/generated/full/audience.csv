@@ -1,0 +1,8 @@
+audience_id,name,segment_type,criteria_json,effective_from,effective_to
+AUD-000001,C-Level Tech Executives,BUSINESS,"{""industry"": ""Technology"", ""min_revenue_usd"": 1000000}",2026-01-01T00:00:00+00:00,
+AUD-000002,Mid-Market Growth Companies,BUSINESS,"{""industry"": ""Technology"", ""min_revenue_usd"": 1000000}",2026-01-01T00:00:00+00:00,
+AUD-000003,High Intent Website Visitors,HIGH_INTENT,"{""industry"": ""Technology"", ""min_revenue_usd"": 1000000}",2026-01-01T00:00:00+00:00,
+AUD-000004,Inbound Webinar Attendees,RETURNING,"{""industry"": ""Technology"", ""min_revenue_usd"": 1000000}",2026-01-01T00:00:00+00:00,
+AUD-000005,General Awareness Broad Tech,GENERAL,"{""industry"": ""Technology"", ""min_revenue_usd"": 1000000}",2026-01-01T00:00:00+00:00,
+AUD-000006,Previous Demo Request Drops,RETURNING,"{""industry"": ""Technology"", ""min_revenue_usd"": 1000000}",2026-01-01T00:00:00+00:00,
+AUD-000007,Enterprise IT Procurement,BUSINESS,"{""industry"": ""Technology"", ""min_revenue_usd"": 1000000}",2026-01-01T00:00:00+00:00,

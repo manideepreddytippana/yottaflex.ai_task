@@ -1,0 +1,399 @@
+{
+  "overall_status": "PASS",
+  "total_checks": 39,
+  "passed_checks": 39,
+  "failed_checks": 0,
+  "executed_at": "2026-10-29T18:47:10.131239",
+  "checks": [
+    {
+      "check_name": "pk_uniqueness_channel",
+      "entity_name": "channel",
+      "records_checked": 10,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "pk_uniqueness_creative",
+      "entity_name": "creative",
+      "records_checked": 8,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "pk_uniqueness_audience",
+      "entity_name": "audience",
+      "records_checked": 7,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "pk_uniqueness_campaign",
+      "entity_name": "campaign",
+      "records_checked": 500,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "pk_uniqueness_contact",
+      "entity_name": "contact",
+      "records_checked": 50000,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "pk_uniqueness_touchpoint",
+      "entity_name": "touchpoint",
+      "records_checked": 200001,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "pk_uniqueness_web_session",
+      "entity_name": "web_session",
+      "records_checked": 77262,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "pk_uniqueness_lead",
+      "entity_name": "lead",
+      "records_checked": 25000,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "pk_uniqueness_opportunity",
+      "entity_name": "opportunity",
+      "records_checked": 10000,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "pk_uniqueness_order",
+      "entity_name": "order",
+      "records_checked": 3426,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "pk_uniqueness_cost_record",
+      "entity_name": "cost_record",
+      "records_checked": 4999,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "id_format_campaign",
+      "entity_name": "campaign",
+      "records_checked": 500,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "id_format_contact",
+      "entity_name": "contact",
+      "records_checked": 50000,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "id_format_touchpoint",
+      "entity_name": "touchpoint",
+      "records_checked": 200001,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "id_format_web_session",
+      "entity_name": "web_session",
+      "records_checked": 77262,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "id_format_lead",
+      "entity_name": "lead",
+      "records_checked": 25000,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "id_format_opportunity",
+      "entity_name": "opportunity",
+      "records_checked": 10000,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "id_format_order",
+      "entity_name": "order",
+      "records_checked": 3426,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "id_format_cost_record",
+      "entity_name": "cost_record",
+      "records_checked": 4999,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "id_format_channel",
+      "entity_name": "channel",
+      "records_checked": 10,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "id_format_creative",
+      "entity_name": "creative",
+      "records_checked": 8,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "id_format_audience",
+      "entity_name": "audience",
+      "records_checked": 7,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "fk_campaign_channel",
+      "entity_name": "campaign",
+      "records_checked": 500,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "fk_touchpoint_parents",
+      "entity_name": "touchpoint",
+      "records_checked": 200001,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "fk_session_parents",
+      "entity_name": "web_session",
+      "records_checked": 77262,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "fk_lead_parents",
+      "entity_name": "lead",
+      "records_checked": 25000,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "fk_opportunity_lead",
+      "entity_name": "opportunity",
+      "records_checked": 10000,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "fk_order_parents",
+      "entity_name": "order",
+      "records_checked": 3426,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "fk_cost_campaign",
+      "entity_name": "cost_record",
+      "records_checked": 4999,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "temporal_campaign_dates",
+      "entity_name": "campaign",
+      "records_checked": 500,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "temporal_session_dates",
+      "entity_name": "web_session",
+      "records_checked": 77262,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "temporal_lead_dates",
+      "entity_name": "lead",
+      "records_checked": 25000,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "temporal_opportunity_closed",
+      "entity_name": "opportunity",
+      "records_checked": 10000,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "temporal_opp_after_lead",
+      "entity_name": "opportunity",
+      "records_checked": 10000,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "financial_campaign_budget_positive",
+      "entity_name": "campaign",
+      "records_checked": 500,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "financial_opp_value_positive",
+      "entity_name": "opportunity",
+      "records_checked": 10000,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "financial_cost_positive",
+      "entity_name": "cost_record",
+      "records_checked": 4999,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "financial_order_net_revenue",
+      "entity_name": "order",
+      "records_checked": 3426,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    },
+    {
+      "check_name": "lifecycle_opp_event_consistency",
+      "entity_name": "opportunity",
+      "records_checked": 10000,
+      "failure_count": 0,
+      "status": "PASS",
+      "details": {
+        "failures_sample": []
+      }
+    }
+  ]
+}

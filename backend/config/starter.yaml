@@ -1,0 +1,21 @@
+# Starter Configuration for Marketing Attribution System
+seed: 20261022
+dataset_scale: starter
+reporting_currency: INR
+
+counts:
+  campaigns: 25
+  contacts: 1000
+  touchpoints: 4000
+  opportunities: 200
+
+conversion_window_days: 180
+anomaly_injection_enabled: true
+
+anomaly_rates:
+  duplicate_revenue: 0.005
+  post_conversion_touch: 0.005
+  currency_mismatch: 0.005
+  missing_campaign_cost: 0.04
+  unsupported_identity_link: 0.005
+

@@ -1,0 +1,25 @@
+# env variables
+.env
+
+# python & backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual Environments
+venv/
+
+# testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.cache/
+
+# Node.js & Frontend
+node_modules/
+frontend/node_modules/

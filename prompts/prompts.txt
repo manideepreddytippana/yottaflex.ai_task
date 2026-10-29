@@ -1,0 +1,48 @@
+Act as a senior Python engineer and full-stack technical lead. Read `implementation.md` and all referenced specification files from docs folder. Inspect the existing repository, then implement the project according to the plan, starting with Phase 1. Create actual working files, follow the documented requirements, run relevant checks, and report completed work and remaining tasks. Do not skip phases or rebuild existing functionality unnecessarily.
+
+Prompt 1 — Project Setup
+Act as a senior Python engineer. Set up a clean project structure for a Marketing Campaign Attribution and ROI system using FastAPI, PostgreSQL, React, TypeScript, and Vite. Add configuration files, dependencies, and setup instructions.
+
+Prompt 2 — Database Design
+Design the PostgreSQL database schema and SQLAlchemy models for campaigns, channels, contacts, touchpoints, leads, opportunities, orders, costs, and data quality issues. Add relationships, constraints, and deterministic ID generation.
+
+Prompt 3 — Synthetic Data Generation
+
+Build a deterministic synthetic marketing data generator using a fixed random seed. Generate realistic campaign interactions, customer journeys, leads, opportunities, orders, and campaign costs, ensuring valid relationships and reproducible results.
+Copy prompt
+
+Prompt 4 — Data Validation
+Implement a data validation pipeline covering primary keys, foreign keys, timestamps, statuses, financial calculations, and business rules. Report all validation failures without silently modifying source data, and write automated tests.
+Copy prompt
+
+Prompt 5 — Customer Journey Reconstruction
+Build a customer journey engine that connects touchpoints, web sessions, leads, opportunities, and orders chronologically. Exclude invalid touchpoints based on conversion time, lookback window, identity evidence, campaign validity, campaign activity, and channel activity.
+Copy prompt
+
+Prompt 6 — Attribution and ROI
+Implement First-Touch, Last-Touch, and Linear Multi-Touch attribution. Allocate order revenue accurately using Decimal arithmetic, reconcile every cent, convert currencies using configured exchange rates, and calculate campaign ROI with clear cost-coverage statuses.
+Copy prompt
+
+Prompt 7 — Anomaly Detection
+Implement anomaly detection for duplicate revenue, post-conversion touchpoints, missing campaign costs, invalid currency rates, and unsupported identity links. Keep ground-truth data separate from detection logic and evaluate precision, recall, and F1 score.
+Copy prompt
+
+Prompt 8 — Data Export and Reproducibility
+Build an export pipeline that produces standardized CSV files, a SQL seed script, a JSON manifest, and SHA-256 checksums. Verify that repeated runs with the same configuration generate identical outputs.
+Copy prompt
+
+Prompt 9 — FastAPI Backend
+Build a modular FastAPI backend with separate service and router layers. Implement APIs for campaigns, ROI, attribution comparisons, customer journeys, validation results, anomalies, run metadata, and exports. Add pagination, error handling, and API tests.
+Copy prompt
+
+Prompt 10 — React Dashboard
+Build a professional analytics dashboard using React, TypeScript, and Vite. Include overview KPIs, campaign ROI, attribution model comparisons, customer journeys, data quality issues, and reproducibility reports. Connect the UI to the FastAPI backend and handle loading and error states.
+Copy prompt
+
+Prompt 11 — Automated Testing
+Write unit, integration, API, and reproducibility tests using pytest and HTTPX. Verify attribution formulas, touchpoint eligibility, financial reconciliation, data validation, anomaly detection, and API behavior. Run the tests and fix failures without weakening the assertions.
+Copy prompt
+
+Prompt 12 — Final Integration and Documentation
+Integrate the complete pipeline from data generation through validation, database loading, journey reconstruction, attribution, ROI, anomaly detection, and export. Add CLI commands, production frontend packaging, a README, and end-to-end verification. Run the complete workflow and report any unresolved issues.
+Copy prompt
